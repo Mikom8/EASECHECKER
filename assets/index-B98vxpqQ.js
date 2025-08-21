@@ -20321,7 +20321,7 @@ const qS = ({
         "relative w-full h-screen bg-black flex justify-center items-center overflow-hidden",
       children: [
         ne.jsx("div", {
-          style: { width: "100%", height: "100%", position: "relative" },
+          style: { width: "100%", height: "100vh", position: "relative" },
           children: ne.jsx(lb, {
             speed: 0.5,
             squareSize: 30,
