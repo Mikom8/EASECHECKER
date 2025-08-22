@@ -414,13 +414,15 @@ label {
   backdrop-filter: blur(1.8px);
   color: #fff;
   border-radius: 20px;
-  width: 20em;
+  width: 21em;
   margin: 20px 20px 0;
   padding: 0 20px 10px;
   animation: 5s ease-in-out infinite shadow;
 }
 .bx-search {
   font-size: 1em;
+  transform: translateY(2px);
+  margin-right: 1px;
 }
 footer {
   color: #fff;
@@ -468,6 +470,11 @@ footer a i:hover:after {
   }
   to {
     box-shadow: 0 0 10px #00f;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 23em;
   }
 }
 @property --tw-font-weight {
