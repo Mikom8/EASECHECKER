@@ -414,7 +414,7 @@ label {
   backdrop-filter: blur(1.8px);
   color: #fff;
   border-radius: 20px;
-  width: 21em;
+  width: 20.5em;
   margin: 20px 20px 0;
   padding: 0 20px 10px;
   animation: 5s ease-in-out infinite shadow;
@@ -470,14 +470,7 @@ footer a i:hover:after {
   }
   to {
     box-shadow: 0 0 10px #00f;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container {
-    width: 23em;
-  }
-}
-@property --tw-font-weight {
+  21em@property --tw-font-weight {
   syntax: "*";
   inherits: false;
 }
